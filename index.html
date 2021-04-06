@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <script src="https://kit.fontawesome.com/98f6fc5b6a.js" crossorigin="anonymous"></script>
-
     <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
     <title>CALCULADORA</title>
 </head>
@@ -17,34 +15,36 @@
 
     <div class="container-fluid d-flex flex-column" id="calculadora">
         <div class="row">
-            <div class="display" id="display"></div>
+            <div class="display"> 
+                <p id="display"></p>
+            </div>
         </div>
         <div class="flex-row">
-            <button class="botao op btn-info" value="c" onclick="limpa()">C</button>
-            <button class="botao op btn-info" value="/" onclick="">/</button>
-            <button class="botao op btn-info" value="*" onclick="">X</button>
-            <button class="botao op btn-info" value="+" onclick="">+</button>
+            <button class="botao btn-info" id="clear">C</button>
+            <button class="botao btn-info" id="divid">/</button>
+            <button class="botao btn-info" id="multi">*</button>
+            <button class="botao btn-info" id="soma">+</button>
         </div>
         <div class="flex-row">
-            <button class="botao num"         value="7" onclick="">7</button>
-            <button class="botao num"         value="8" onclick="">8</button>
-            <button class="botao num"         value="9" onclick="">9</button>
-            <button class="botao op btn-info" value="-" onclick="">-</button>
+            <button class="botao"          id="btn-7">7</button>
+            <button class="botao"          id="btn-8">8</button>
+            <button class="botao"          id="btn-9">9</button>
+            <button class="botao btn-info" id="sub">-</button>
         </div>
         <div class="flex-row">
-            <button class="botao num"         value="4" onclick="">4</button>
-            <button class="botao num"         value="5" onclick="">5</button>
-            <button class="botao num"         value="6" onclick="">6</button>
-            <button class="botao op btn-info" value=".">,</button>
+            <button class="botao"          id="btn-4">4</button>
+            <button class="botao"          id="btn-5">5</button>
+            <button class="botao"          id="btn-6">6</button>
+            <button class="botao btn-info" id="comma">,</button>
         </div>
         <div class="flex-row">
-            <button class="botao num"         value="1" onclick="">1</button>
-            <button class="botao num"         value="2" onclick="">2</button>
-            <button class="botao num"         value="3" onclick="">3</button>
-            <button class="botao op btn-primary" id="btnCalcula" onclick="calcParse('calcula')"><i class="fas fa-equals"></i></button>
+            <button class="botao"             id="btn-1">1</button>
+            <button class="botao"             id="btn-2">2</button>
+            <button class="botao"             id="btn-3">3</button>
+            <button class="botao btn-primary" id="btnCalcula">=</button>
         </div>
         <div class="flex-row">
-            <button class="botao0 num" value="0" onclick="calcNum(0)">0</button>
+            <button class="botao0" id="btn-0">0</button>
         </div>
     </div>
     
