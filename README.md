@@ -1,13 +1,7 @@
-# 💯 Calculadora Númerica
+## Calculadora
 
-## ✔️ Atividade pontuada:
+📑 Atividade: Desenvolver utilizando HTML, CSS & JavaScript Vanilla.
 
-📑 Desenvolver Calculadora com HTML, CSS & JavaScript Vanilla
+➕ Incremento do projeto: separação de decimal e calculos dinâmicos 
 
-* ​	Requisito: Proibido utilizar funções prontas (ex: eval).
-
-➕ Incremento: separação de decimal & cálculos dinâmicos 
-
-
-
-<h3 align="center"> Programação WEB 2021.1 <br> Desenvolvimento de Sistemas SENAI/BA</h3>
+<h6 align="center"> Programação WEB 2021.1 <br> Desenvolvimento de Sistemas SENAI/BA</h3>
